@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iqb-vocabs/p16.git"
+    "url": "git+https://github.com/iqb-vocabs/p17.git"
   },
   "bugs": {
-    "url": "https://github.com/iqb-vocabs/p16/issues"
+    "url": "https://github.com/iqb-vocabs/p17/issues"
   },
-  "homepage": "https://github.com/iqb-vocabs/p16#readme",
+  "homepage": "https://github.com/iqb-vocabs/p17#readme",
   "dependencies": {
     "@iqb/validate-md-profile": "^0.7.5"
   }
