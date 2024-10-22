@@ -91,12 +91,12 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Metadatenprofile für Testaufgaben: Deutsch MSA 2003</span></a>
+<span class="menu-text">Metadatenprofile für Testaufgaben: Deutsch Sek I</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/iqb-vocabs/p17"> <i class="bi bi-github" role="img" aria-label="Source Code">
+    <a class="nav-link" href="https://github.com/iqb-vocabs/p16"> <i class="bi bi-github" role="img" aria-label="Source Code">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>ID of profile-store: <code>dems</code></p>
+<p>ID of profile-store: <code>adesm</code></p>
 <p>Publisher: IQB - Institut zur Qualitätsentwicklung im Bildungswesen</p>
 <p>Maintainer: IQB - Institut zur Qualitätsentwicklung im Bildungswesen</p>
 <p>2 Profile definiert:</p>
@@ -193,53 +193,47 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: left;">Texttyp</td>
-<td style="text-align: center;"><a href="https://w3id.org/iqb/v28/tt/">Vokabular</a></td>
-<td style="text-align: left;">url: ‘https://w3id.org/iqb/v28/tt/’, Einmalauswahl, Nummerierung unterdrückt</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v28/ts/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v28/ts/’, Einmalauswahl, Nummerierung unterdrückt</td>
 <td style="text-align: center;">k1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Textsorte</td>
-<td style="text-align: center;"><a href="https://w3id.org/iqb/v25/te/">Vokabular</a></td>
-<td style="text-align: left;">url: ‘https://w3id.org/iqb/v25/te/’, Einmalauswahl, Nummerierung unterdrückt</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v28/ss/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v28/ss/’, Einmalauswahl, Nummerierung unterdrückt</td>
 <td style="text-align: center;">k2</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Andere Textsorte</td>
-<td style="text-align: center;">Text</td>
-<td style="text-align: left;">Einzeilig, Sprache(n): de</td>
-<td style="text-align: center;">iqb_other_text_type</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">Notizfeld</td>
 <td style="text-align: center;">Text</td>
 <td style="text-align: left;">Mehrzeilig, Sprache(n): de</td>
 <td style="text-align: center;">iqb_note</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Angaben zum Urtext und zu Inspirationsquellen</td>
 <td style="text-align: center;">Text</td>
 <td style="text-align: left;">Mehrzeilig, Sprache(n): de</td>
 <td style="text-align: center;">iqb_additional_info</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Stimuluszeit</td>
 <td style="text-align: center;">Zahl</td>
 <td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden</td>
 <td style="text-align: center;">iqb_time_stimulus</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Aufgabenzeit</td>
 <td style="text-align: center;">Zahl</td>
 <td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden</td>
 <td style="text-align: center;">iqb_time_unit</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: left;">Instruktionszeit</td>
 <td style="text-align: center;">Zahl</td>
 <td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein</td>
 <td style="text-align: center;">iqb_time_instructions</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">Anzahl Vorspielen</td>
 <td style="text-align: center;">Zahl</td>
 <td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein</td>
@@ -388,6 +382,12 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: left;">Kommastellen: 0, Mindestwert: 0, Maximalwert: kein, als Sekunden</td>
 <td style="text-align: center;">iqb_time_item</td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;">Geschätzte Schwierigkeit</td>
+<td style="text-align: center;"><a href="https://w3id.org/iqb/v26/ea/">Vokabular</a></td>
+<td style="text-align: left;">url: ‘https://w3id.org/iqb/v26/ea/’, Einmalauswahl</td>
+<td style="text-align: center;">e4</td>
+</tr>
 </tbody>
 </table>
 
@@ -487,7 +487,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/iqb-vocabs\.github\.io\/p17\/");
+      var filterRegex = new RegExp("https:\/\/iqb-vocabs\.github\.io\/p16\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
