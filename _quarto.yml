@@ -11,7 +11,7 @@ website:
     search: true
     left:
       - href: index.qmd
-        text: "Metadatenprofile für Testaufgaben: Deutsch Sek I"
+        text: "Metadatenprofile für Testaufgaben: Deutsch Sek I 2003"
     right:
       - icon: github
         href: https://github.com/iqb-vocabs/p16

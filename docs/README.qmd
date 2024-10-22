@@ -1,5 +1,5 @@
 ---
-title: Metadatenprofile für Testaufgaben - Deutsch MSA 2003
+title: Metadatenprofile für Testaufgaben - Deutsch Sek I 2003
 ---
 
 ID of profile-store: `adesm`
@@ -10,7 +10,7 @@ Maintainer: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 2 Profile definiert:
 
-# IQB Deutsch MSA 2003 - Aufgabe
+# IQB Deutsch Sek I 2003 - Aufgabe
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p17/master/unit.json`
 
@@ -53,7 +53,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p17/master/unit.jso
 
 : {tbl-colwidths="[15,15,55,15]"}
 
-# IQB Deutsch MSA 2003 - Item
+# IQB Deutsch Sek I 2003 - Item
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p17/master/item.json`
 

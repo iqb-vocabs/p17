@@ -1,4 +1,4 @@
-# Metadatenprofile für Testaufgaben: Deutsch MSA 2003
+# Metadatenprofile für Testaufgaben: Deutsch Sek I 2003
 
 ID of profile-store: `adesm`
 
@@ -8,7 +8,7 @@ Maintainer: IQB - Institut zur Qualitätsentwicklung im Bildungswesen
 
 2 Profile definiert:
 
-## Profil "IQB Deutsch MSA 2003 - Aufgabe"
+## Profil "IQB Deutsch Sek I 2003 - Aufgabe"
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p17/master/unit.json`
 
@@ -45,7 +45,7 @@ ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p17/master/unit.jso
 | Nebengeräusche | [Vokabular](https://w3id.org/iqb/v25/ne/) | url: 'https://w3id.org/iqb/v25/ne/', Einmalauswahl, Nummerierung unterdrückt | k6 |
 | Transkript | Text |Mehrzeilig, Sprache(n): de | iqb_transcript |
 
-## Profil "IQB Deutsch MSA 2003 - Item"
+## Profil "IQB Deutsch Sek I 2003 - Item"
 
 ID of profile: `https://raw.githubusercontent.com/iqb-vocabs/p17/master/item.json`
 
